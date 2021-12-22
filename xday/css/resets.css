@@ -1,0 +1,31 @@
+.button-reset {
+	background-color: transparent;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: inherit;
+	font-size: inherit;
+  color: inherit;
+  cursor: pointer;
+	padding: 0px 0px 0px 0px;
+	text-align: center;
+	transition: border .5s ease-in-out, background-color .5s ease-in-out, color .5s ease-in-out;
+}
+.button-general {
+	min-height: 60px;
+	border-radius: 5px;
+	background-color: var(--accent-color);
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 150%;
+	padding: 4px 32px;
+}
+.button-general:hover {
+	background-color: #f7270a;
+}
+/* If we don't have a reset in the common.css*/
+.list-reset {
+	list-style-type: none;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+}

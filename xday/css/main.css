@@ -1,0 +1,31 @@
+/* Nullstyle */
+@import url(nullstyle.css);
+
+/* Common styles */
+@import url(common.css);
+
+/* Fonts */
+@import url(./../fonts/fonts.css);
+
+/* Variables */
+@import url(variables.css);
+
+/* Resets for buttons and lists */
+@import url(resets.css);
+
+/* Main blocks */
+@import url(header/header.css);
+
+@import url(first-screen/first-screen.css);
+
+@import url(offers/offers.css);
+
+@import url(gallery/gallery.css);
+
+@import url(information/information.css);
+
+@import url(news/news.css);
+
+@import url(footer/footer.css);
+
+@import url(media.css);

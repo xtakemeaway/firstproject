@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>CoffeeShop</title>
+	<!-- convert .png into .ico from convertico.com -->
+	<link rel="icon" href="images/logotype/fav-icon.ico" type="image/x-icon"> 
+	<link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="container">
+				<div class="header__inner">
+					<div class="logotype header__logotype">
+						<a href="#" class="logotype-styles header__logotype-styles">Coffee</a>
+					</div>
+					<nav class="navigation header__navigation">
+						<ul class="navigation__list">
+							<li class="navigation__list-item">
+								<a href="#" class="navigation__list-link">Home</a>
+							</li>
+							<li class="navigation__list-item">
+								<a href="#" class="navigation__list-link">About</a>
+							</li>
+							<li class="navigation__list-item">
+								<a href="#" class="navigation__list-link">Menu</a>
+							</li>
+							<li class="navigation__list-item">
+								<a href="#" class="navigation__list-link">Review</a>
+							</li>
+							<li class="navigation__list-item">
+								<a href="#" class="navigation__list-link">Contact</a>
+							</li>
+						</ul>
+					</nav>
+					<div class="header__options">
+						<button class="button-reset button-search" aria-label="website search">
+							<svg width="0" height="0" class="hidden">
+								<symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 22" id="search-icon">
+									<g opacity="0.7">
+										<path d="M18.7778 9.88892C18.7778 14.7981 14.7981 18.7778 9.88889 18.7778C4.97969 18.7778 0.999999 14.7981 1 9.88892C1 4.9797 4.97969 1 9.88889 1C14.7981 1 18.7778 4.9797 18.7778 9.88892Z"></path>
+										<path d="M21.0001 21.0001L16.1667 16.1667"></path>
+									</g>
+								</symbol>
+							</svg>
+							<svg class="search-icon icon">
+								<use xlink:href="#search-icon"></use>
+							</svg>
+						</button>
+						<button class="button-reset button-cart" aria-label="website cart">
+							<svg width="0" height="0" class="hidden">
+								<symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 43 41" id="cart-icon">
+									<path d="M15.9858 40.1962C17.0164 40.1962 17.8519 39.3608 17.8519 38.3302C17.8519 37.2996 17.0164 36.4641 15.9858 36.4641C14.9552 36.4641 14.1198 37.2996 14.1198 38.3302C14.1198 39.3608 14.9552 40.1962 15.9858 40.1962Z"></path>
+									<path d="M36.5127 40.1962C37.5433 40.1962 38.3787 39.3608 38.3787 38.3302C38.3787 37.2996 37.5433 36.4641 36.5127 36.4641C35.4821 36.4641 34.6466 37.2996 34.6466 38.3302C34.6466 39.3608 35.4821 40.1962 36.5127 40.1962Z"></path>
+									<path d="M1.05713 1.00854H8.52139L13.5225 25.9952C13.6931 26.8543 14.1605 27.626 14.8428 28.1753C15.5251 28.7245 16.3788 29.0163 17.2546 28.9995H35.3927C36.2685 29.0163 37.1222 28.7245 37.8046 28.1753C38.4869 27.626 38.9542 26.8543 39.1249 25.9952L42.1106 10.3389H10.3875"></path>
+								</symbol>
+							</svg>
+							<svg class="cart-icon icon">
+								<use xlink:href="#cart-icon"></use>
+							</svg>
+							<div class="header-counter">
+								<span>2</span>
+							</div>
+						</button>
+					</div>
+					<button class="button-reset burger-menu">
+						<span></span>
+						<span></span>
+						<span></span>
+					</button>
+				</div>
+			</div>
+		</header>
+		<main class="main">
+			<section class="first-screen">
+				<div class="container">
+					<div class="first-screen__content">
+						<h1>Keep your dreams aroused with a cup of coffee.</h1>
+						<p class="first-screen__descr">The coffee ideas shared by these generators are not cool at all, as they are not a human being.</p>
+						<button class="button-reset button-general first-screen__buy">Buy Now</button>
+					</div>
+				</div>
+				<div class="first-screen-image first-screen__image">
+					<img src="images/first-screen/first-screen.png" alt="Keep your dreams aroused with a cup of coffee.">
+				</div>
+			</section>
+			<section class="offers">
+				<div class="container">
+					<div class="heading offers__heading">
+						<div class="offers__heading-content">
+							<h2>That is Our Best Offer</h2>
+							<p class="heading__descr offers__heading-descr">A coffee shop will help you to tell the audience what your business.</p>
+						</div>
+						<div class="offers__heading-buttons">
+							<button class="button-reset swiper-button-prev"></button>
+							<button class="button-reset swiper-button-next"></button>
+						</div>
+					</div>
+					<div class="slider-container container">
+						<div class="swiper-container">
+							<div class="swiper-wrapper">
+								<a class="swiper-slide offer-card" href="#">
+									<div class="offer-card__top">
+										<img src="images/offers/offer-1.png" alt="Brazilian coffee beans">
+									</div>
+									<div class="offer-card__body">
+										<span class="offer-card__price">$5.99</span>
+										<h3>Brazilian coffee beans</h3>
+										<p class="offer-card__descr">Coffee that’s always you handle your own the way you like. </p>
+									</div>
+									<div class="offer-card__footer">
+										<div class="offer-card__counter">
+											<button class="button-reset button-counter__main">3</button>
+											<div class="offer-card__choice">
+												<button class="button-reset button-choice__more">+</button>
+												<button class="button-reset button-choice__less">-</button>
+											</div>
+										</div>
+										<button class="button-reset button-general offer-card__get">Get Delivery</button>
+									</div>
+								</a>
+
+								<a class="swiper-slide offer-card" href="#">
+									<div class="offer-card__top">
+										<img src="images/offers/offer-2.png" alt="Vietnam coffee beans">
+									</div>
+									<div class="offer-card__body">
+										<span class="offer-card__price">$4.99</span>
+										<h3>Vietnam coffee beans</h3>
+										<p class="offer-card__descr">Coffee that’s always you handle your own the way you like. </p>
+									</div>
+									<div class="offer-card__footer">
+										<div class="offer-card__counter">
+											<button class="button-reset button-counter__main">2</button>
+											<div class="offer-card__choice">
+												<button class="button-reset button-choice__more">+</button>
+												<button class="button-reset button-choice__less">-</button>
+											</div>
+										</div>
+										<button class="button-reset button-general offer-card__get">Get Delivery</button>
+									</div>
+								</a>
+
+								<a class="swiper-slide offer-card" href="#">
+									<div class="offer-card__top">
+										<img src="images/offers/offer-3.png" alt="Indonesian coffee beans">
+									</div>
+									<div class="offer-card__body">
+										<span class="offer-card__price">$3.99</span>
+										<h3>Indonesian coffee beans</h3>
+										<p class="offer-card__descr">Coffee that’s always you handle your own the way you like. </p>
+									</div>
+									<div class="offer-card__footer">
+										<div class="offer-card__counter">
+											<button class="button-reset button-counter__main">1</button>
+											<div class="offer-card__choice">
+												<button class="button-reset button-choice__more">+</button>
+												<button class="button-reset button-choice__less">-</button>
+											</div>
+										</div>
+										<button class="button-reset button-general offer-card__get">Get Delivery</button>
+									</div>
+								</a>
+
+								<a class="swiper-slide offer-card" href="#">
+									<div class="offer-card__top">
+										<img src="images/offers/offer-1.png" alt="Brazilian coffe beans">
+									</div>
+									<div class="offer-card__body">
+										<span class="offer-card__price">$5.99</span>
+										<h3>Brazilian coffe beans</h3>
+										<p class="offer-card__descr">Coffee that’s always you handle your own the way you like. </p>
+									</div>
+									<div class="offer-card__footer">
+										<div class="offer-card__counter">
+											<button class="button-reset button-counter__main">3</button>
+											<div class="offer-card__choice">
+												<button class="button-reset button-choice__more">+</button>
+												<button class="button-reset button-choice__less">-</button>
+											</div>
+										</div>
+										<button class="button-reset button-general offer-card__get">Get Delivery</button>
+									</div>
+								</a>
+
+								<a class="swiper-slide offer-card" href="#">
+									<div class="offer-card__top">
+										<img src="images/offers/offer-2.png" alt="Vietnam coffe beans">
+									</div>
+									<div class="offer-card__body">
+										<span class="offer-card__price">$4.99</span>
+										<h3>Vietnam coffe beans</h3>
+										<p class="offer-card__descr">Coffee that’s always you handle your own the way you like. </p>
+									</div>
+									<div class="offer-card__footer">
+										<div class="offer-card__counter">
+											<button class="button-reset button-counter__main">2</button>
+											<div class="offer-card__choice">
+												<button class="button-reset button-choice__more">+</button>
+												<button class="button-reset button-choice__less">-</button>
+											</div>
+										</div>
+										<button class="button-reset button-general offer-card__get">Get Delivery</button>
+									</div>
+								</a>
+
+								<a class="swiper-slide offer-card" href="#">
+									<div class="offer-card__top">
+										<img src="images/offers/offer-3.png" alt="Indonesian coffe beans">
+									</div>
+									<div class="offer-card__body">
+										<span class="offer-card__price">$3.99</span>
+										<h3>Indonesian coffe beans</h3>
+										<p class="offer-card__descr">Coffee that’s always you handle your own the way you like. </p>
+									</div>
+									<div class="offer-card__footer">
+										<div class="offer-card__counter">
+											<button class="button-reset button-counter__main">1</button>
+											<div class="offer-card__choice">
+												<button class="button-reset button-choice__more">+</button>
+												<button class="button-reset button-choice__less">-</button>
+											</div>
+										</div>
+										<button class="button-reset button-general offer-card__get">Get Delivery</button>
+									</div>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="gallery">
+				<div class="container">
+					<div class="heading gallery__heading">
+						<h2>Our Gallery </h2>
+						<p class="heading__descr gallery__heading-descr">The coffee shop name generator is a great tool for those that are deliberating what to call their new coffee.</p>
+					</div>
+					<div class="gallery__inner">
+						<div class="gallery__inner-column">
+							<div class="gallery__item-1">
+								<img src="images/gallery/image-1.jpg" alt="CoffeeImages">
+							</div>
+							<div class="gallery__item-2">
+								<img src="images/gallery/image-2.jpg" alt="CoffeeImages">
+							</div>
+						</div>
+
+						<div class="gallery__inner-column">
+							<div class="gallery__item-3">
+								<img src="images/gallery/image-3.jpg" alt="CoffeeImages">
+							</div>
+							<div class="gallery__item-4">
+								<img src="images/gallery/image-4.jpg" alt="CoffeeImages">
+							</div>
+						</div>
+
+						<div class="gallery__inner-column">
+							<div class="gallery__item-5">
+								<img src="images/gallery/image-5.jpg" alt="CoffeeImages">
+							</div>
+							<div class="gallery__item-6">
+								<img src="images/gallery/image-6.jpg" alt="CoffeeImages">
+							</div>
+						</div>
+					</div>
+					<div class="gallery__button">
+						<button class="button-reset gallery__button-more">Load More</button>
+					</div>
+				</div>
+			</section>
+			<section class="information">
+				<div class="container">
+					<div class="information__content">
+						<h4>Follow US</h4>
+						<h2 class="information__title">Have an inquiry? <br> Text or call and ask Something.</h2>
+						<div class="information__links">
+							<a href="tel:8801742-527137" class="information__links-phone phone-link">+8801742-527137</a>
+							<a href="mailto:mdmaksedur17@gmail.com" class="information__links-email">mdmaksedur17@gmail.com</a>
+						</div>
+						<ul class="information__socials socials">
+							<li class="information__socials-item">
+								<a href="#" class="information__socials-link"><svg width="0" height="0" class="hidden">
+									<symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 17" id="twitter">
+										<path d="M19.3333 1.34169C18.5353 1.90459 17.6518 2.33512 16.7167 2.61669C16.2148 2.03962 15.5478 1.6306 14.8059 1.44496C14.0639 1.25933 13.2829 1.30602 12.5684 1.57874C11.8539 1.85145 11.2404 2.33703 10.8108 2.96979C10.3813 3.60255 10.1564 4.35197 10.1667 5.11669V5.95003C8.7022 5.988 7.25106 5.6632 5.94251 5.00456C4.63395 4.34593 3.5086 3.37389 2.66667 2.17503C2.66667 2.17503 -0.666667 9.67503 6.83333 13.0084C5.11711 14.1733 3.07263 14.7575 1 14.675C8.5 18.8417 17.6667 14.675 17.6667 5.09169C17.6659 4.85957 17.6436 4.62802 17.6 4.40003C18.4505 3.56127 19.0507 2.50229 19.3333 1.34169V1.34169Z"></path>
+									</symbol>
+								</svg>
+								<svg class="social-icon icon">
+									<use xlink:href="#twitter"></use>
+								</svg></a>
+							</li>	
+							<li class="information__socials-item">
+								<a href="#" class="information__socials-link">
+									<svg width="0" height="0" class="hidden">
+										<symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11 18" id="facebook">
+											<path d="M10.1667 0.666504H7.66667C6.5616 0.666504 5.50179 1.10549 4.72039 1.88689C3.93899 2.66829 3.5 3.7281 3.5 4.83317V7.33317H1V10.6665H3.5V17.3332H6.83333V10.6665H9.33333L10.1667 7.33317H6.83333V4.83317C6.83333 4.61216 6.92113 4.40019 7.07741 4.24391C7.23369 4.08763 7.44565 3.99984 7.66667 3.99984H10.1667V0.666504Z"></path>
+										</symbol>
+									</svg>
+									<svg class="social-icon icon">
+										<use xlink:href="#facebook"></use>
+									</svg>
+								</a>
+							</li>	
+							<li class="information__socials-item">	
+								<a href="#" class="information__socials-link"><svg width="0" height="0" class="hidden">
+									<symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 18" id="insta">
+										<path d="M13.1667 0.666504H4.83341C2.53223 0.666504 0.666748 2.53198 0.666748 4.83317V13.1665C0.666748 15.4677 2.53223 17.3332 4.83341 17.3332H13.1667C15.4679 17.3332 17.3334 15.4677 17.3334 13.1665V4.83317C17.3334 2.53198 15.4679 0.666504 13.1667 0.666504Z"></path>
+										<path d="M12.3323 8.47525C12.4351 9.16879 12.3167 9.8771 11.9937 10.4994C11.6708 11.1218 11.1599 11.6264 10.5336 11.9416C9.90736 12.2569 9.19765 12.3666 8.50543 12.2552C7.81321 12.1438 7.17374 11.817 6.67797 11.3212C6.18221 10.8255 5.85539 10.186 5.744 9.49376C5.63261 8.80154 5.74233 8.09183 6.05755 7.46556C6.37276 6.8393 6.87743 6.32837 7.49976 6.00545C8.1221 5.68254 8.8304 5.56407 9.52394 5.66692C10.2314 5.77182 10.8863 6.10147 11.392 6.60717C11.8977 7.11288 12.2274 7.76782 12.3323 8.47525Z"></path>
+										<path d="M13.5826 4.41681H13.5914"></path>
+									</symbol>
+								</svg>
+								<svg class="social-icon icon">
+									<use xlink:href="#insta"></use>
+								</svg></a>
+							</li>	
+							<li class="information__socials-item">
+								<a href="#" class="information__socials-link">
+									<svg width="0" height="0" class="hidden">
+										<symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 17" id="lk">
+											<path d="M12.3341 5.66693C13.6602 5.66693 14.932 6.19372 15.8696 7.1314C16.8073 8.06908 17.3341 9.34085 17.3341 10.6669V16.5003H14.0008V10.6669C14.0008 10.2249 13.8252 9.80098 13.5126 9.48842C13.2001 9.17586 12.7761 9.00026 12.3341 9.00026C11.8921 9.00026 11.4682 9.17586 11.1556 9.48842C10.843 9.80098 10.6674 10.2249 10.6674 10.6669V16.5003H7.33411V10.6669C7.33411 9.34085 7.86089 8.06908 8.79857 7.1314C9.73625 6.19372 11.008 5.66693 12.3341 5.66693Z"></path>
+											<path d="M4.00106 6.49976H0.667725V16.4998H4.00106V6.49976Z"></path>
+											<path d="M2.33439 3.99984C3.25487 3.99984 4.00106 3.25365 4.00106 2.33317C4.00106 1.4127 3.25487 0.666504 2.33439 0.666504C1.41392 0.666504 0.667725 1.4127 0.667725 2.33317C0.667725 3.25365 1.41392 3.99984 2.33439 3.99984Z"></path>
+										</symbol>
+									</svg>
+									<svg class="social-icon icon">
+										<use xlink:href="#lk"></use>
+									</svg>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="information-image information__image">
+					<img src="images/information/information-image.png" alt="Keep your dreams aroused with a cup of coffee.">
+				</div>
+			</section>
+			<section class="news">
+				<div class="container">
+					<div class="heading news__heading">
+						<h2>Update News</h2>
+						<p class="heading__descr news__heading-descr">A cup of brewed coffee represents a contribution of up to 1.8 grams of fiber of the recommended.</p>
+					</div>
+					<div class="news__inner">
+						<div class="news__item">
+							<div class="news__item-top">
+								<img src="images/news/news-1.png" alt="Coffee beans">
+							</div>
+							<div class="news__item-content">
+								<h3>Coffee beans</h3>
+								<p class="news__item-descr">These advertising mottos are targeted to the 56% of coffee drinking consumers.</p>
+								<a href="#" class="news__item-link">Learn More</a>
+							</div>
+						</div>
+
+						<div class="news__item">
+							<div class="news__item-top">
+								<img src="images/news/news-2.png" alt="Coffee beans">
+							</div>
+							<div class="news__item-content">
+								<h3>Coffee beans</h3>
+								<p class="news__item-descr">These advertising mottos are targeted to the 56% of coffee drinking consumers.</p>
+								<a href="#" class="news__item-link">Learn More</a>
+							</div>
+						</div>
+
+						<div class="news__item">
+							<div class="news__item-top mobile-image">
+								<img src="images/news/news-3.png" alt="Coffee beans">
+							</div>
+							<div class="news__item-content">
+								<h3>Coffee beans</h3>
+								<p class="news__item-descr ad-descr">These advertising mottos are targeted to the 56% of coffee drinking consumers.</p>
+								<a href="#" class="news__item-link">Learn More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="container">
+				<div class="footer__inner">
+					<div class="footer-column__first">
+						<div class="logotype footer__logotype">
+							<a href="#" class="logotype-styles footer__logotype-styles">Coffee</a>
+						</div>
+						<p class="footer-colum__descr">Creating a catchy tagline coffee shop business growth.</p>
+						<a href="tel:8801742-527137" class="footer__phone-link phone-link">+8801742-527137</a>
+					</div>
+					<div class="footer__navigation">
+						<ul class="footer__list">
+							<h5>Categories</h5>
+							<li class="footer__list-item">
+								<a href="#" class="footer__list-link">Ashley Szekeres Art</a>
+							</li>
+							<li class="footer__list-item">
+								<a href="#" class="footer__list-link">Merchandise</a>
+							</li>
+							<li class="footer__list-item">
+								<a href="#" class="footer__list-link">Gift Certificates</a>
+							</li>
+						</ul>
+
+						<ul class="footer__list mobile-nav">
+							<h5>Information</h5>
+							<li class="footer__list-item">
+								<a href="#" class="footer__list-link">Coffee Beans</a>
+							</li>
+							<li class="footer__list-item">
+								<a href="#" class="footer__list-link">Contact Us</a>
+							</li>
+							<li class="footer__list-item">
+								<a href="#" class="footer__list-link">Blog</a>
+							</li>
+						</ul>
+					</div>
+					<div class="footer-column__last">
+						<h5>Follow us</h5>
+						<ul class="information__socials socials">
+							<li class="information__socials-item">
+								<a href="#" class="information__socials-link"><svg width="0" height="0" class="hidden">
+									<symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 17" id="twitter">
+										<path d="M19.3333 1.34169C18.5353 1.90459 17.6518 2.33512 16.7167 2.61669C16.2148 2.03962 15.5478 1.6306 14.8059 1.44496C14.0639 1.25933 13.2829 1.30602 12.5684 1.57874C11.8539 1.85145 11.2404 2.33703 10.8108 2.96979C10.3813 3.60255 10.1564 4.35197 10.1667 5.11669V5.95003C8.7022 5.988 7.25106 5.6632 5.94251 5.00456C4.63395 4.34593 3.5086 3.37389 2.66667 2.17503C2.66667 2.17503 -0.666667 9.67503 6.83333 13.0084C5.11711 14.1733 3.07263 14.7575 1 14.675C8.5 18.8417 17.6667 14.675 17.6667 5.09169C17.6659 4.85957 17.6436 4.62802 17.6 4.40003C18.4505 3.56127 19.0507 2.50229 19.3333 1.34169V1.34169Z"></path>
+									</symbol>
+								</svg>
+								<svg class="social-icon icon">
+									<use xlink:href="#twitter"></use>
+								</svg></a>
+							</li>	
+							<li class="information__socials-item">
+								<a href="#" class="information__socials-link">
+									<svg width="0" height="0" class="hidden">
+										<symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11 18" id="facebook">
+											<path d="M10.1667 0.666504H7.66667C6.5616 0.666504 5.50179 1.10549 4.72039 1.88689C3.93899 2.66829 3.5 3.7281 3.5 4.83317V7.33317H1V10.6665H3.5V17.3332H6.83333V10.6665H9.33333L10.1667 7.33317H6.83333V4.83317C6.83333 4.61216 6.92113 4.40019 7.07741 4.24391C7.23369 4.08763 7.44565 3.99984 7.66667 3.99984H10.1667V0.666504Z"></path>
+										</symbol>
+									</svg>
+									<svg class="social-icon icon">
+										<use xlink:href="#facebook"></use>
+									</svg>
+								</a>
+							</li>	
+							<li class="information__socials-item">	
+								<a href="#" class="information__socials-link"><svg width="0" height="0" class="hidden">
+									<symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 18" id="insta">
+										<path d="M13.1667 0.666504H4.83341C2.53223 0.666504 0.666748 2.53198 0.666748 4.83317V13.1665C0.666748 15.4677 2.53223 17.3332 4.83341 17.3332H13.1667C15.4679 17.3332 17.3334 15.4677 17.3334 13.1665V4.83317C17.3334 2.53198 15.4679 0.666504 13.1667 0.666504Z"></path>
+										<path d="M12.3323 8.47525C12.4351 9.16879 12.3167 9.8771 11.9937 10.4994C11.6708 11.1218 11.1599 11.6264 10.5336 11.9416C9.90736 12.2569 9.19765 12.3666 8.50543 12.2552C7.81321 12.1438 7.17374 11.817 6.67797 11.3212C6.18221 10.8255 5.85539 10.186 5.744 9.49376C5.63261 8.80154 5.74233 8.09183 6.05755 7.46556C6.37276 6.8393 6.87743 6.32837 7.49976 6.00545C8.1221 5.68254 8.8304 5.56407 9.52394 5.66692C10.2314 5.77182 10.8863 6.10147 11.392 6.60717C11.8977 7.11288 12.2274 7.76782 12.3323 8.47525Z"></path>
+										<path d="M13.5826 4.41681H13.5914"></path>
+									</symbol>
+								</svg>
+								<svg class="social-icon icon">
+									<use xlink:href="#insta"></use>
+								</svg></a>
+							</li>	
+							<li class="information__socials-item">
+								<a href="#" class="information__socials-link">
+									<svg width="0" height="0" class="hidden">
+										<symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 17" id="lk">
+											<path d="M12.3341 5.66693C13.6602 5.66693 14.932 6.19372 15.8696 7.1314C16.8073 8.06908 17.3341 9.34085 17.3341 10.6669V16.5003H14.0008V10.6669C14.0008 10.2249 13.8252 9.80098 13.5126 9.48842C13.2001 9.17586 12.7761 9.00026 12.3341 9.00026C11.8921 9.00026 11.4682 9.17586 11.1556 9.48842C10.843 9.80098 10.6674 10.2249 10.6674 10.6669V16.5003H7.33411V10.6669C7.33411 9.34085 7.86089 8.06908 8.79857 7.1314C9.73625 6.19372 11.008 5.66693 12.3341 5.66693Z"></path>
+											<path d="M4.00106 6.49976H0.667725V16.4998H4.00106V6.49976Z"></path>
+											<path d="M2.33439 3.99984C3.25487 3.99984 4.00106 3.25365 4.00106 2.33317C4.00106 1.4127 3.25487 0.666504 2.33439 0.666504C1.41392 0.666504 0.667725 1.4127 0.667725 2.33317C0.667725 3.25365 1.41392 3.99984 2.33439 3.99984Z"></path>
+										</symbol>
+									</svg>
+									<svg class="social-icon icon">
+										<use xlink:href="#lk"></use>
+									</svg>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="footer__bottom">
+					<p>Copyright © 2021 Coffee, All rights reserved. Present by MoxCreative.</p>
+				</div>
+			</div>
+		</footer>
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> 
+		<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+		<script src="js/script.js"></script>
+	</div>
+</body>
+</html>

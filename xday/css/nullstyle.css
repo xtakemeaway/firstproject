@@ -1,0 +1,33 @@
+html {
+	box-sizing: border-box;
+}
+*, *::after, *::before {
+	box-sizing: inherit;
+	border: none;
+}
+a {
+	color: inherit;
+	text-decoration: none;
+}
+aside, footer, header, main, nav, section {
+	display: block;
+}
+h1, h2, h3, h4, h5, h6, p {
+	font-size: inherit;
+	font-weight: inherit;
+	color: inherit;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+}
+ul {
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	list-style-type: none;
+}
+input, textarea, select {
+	font-family: inherit;
+	font-size: inherit;
+}
+button:focus, button:active, input:focus, input:active {
+  outline: none;
+}

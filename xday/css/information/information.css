@@ -1,0 +1,120 @@
+.information {
+	padding: 100px 0;
+	background-color: #0d0402;
+	position: relative;
+}
+.information__content {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+
+	position: relative;
+	z-index: 10;
+}
+h4 {
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 150%;
+	color: var(--accent-color);
+	margin: 0px 0px 65px 0px;
+	position: relative;
+}
+h4::after {
+	content: '';
+	width: 80%;
+	height: 2px;
+	left: 0;
+	background-color: var(--accent-color);
+	position: absolute;
+	left: 50%;
+	bottom: -25px;
+	transform: translateX(-50%);
+}
+.information__title {
+	max-width: 620px;
+	margin: 0px 0px 60px 0px;
+	color: var(--default-color);
+}
+.information__links {
+	display: flex;
+	flex-direction: column;
+	margin: 0px 0px 30px 0px;
+}
+.information__links > *:not(:last-child) {
+	margin: 0px 0px 25px 0px;
+}
+.phone-link {
+	font-size: 24px;
+	line-height: 150%;
+	padding: 0px 0px 0px 40px;
+	background-repeat: no-repeat;
+	background-image: url(./../../images/information/phone.svg);
+	background-size: 24px 24px;
+	background-position: left 50px center;
+	transition: color .5s ease-in-out;
+}
+.information__links-email {
+	font-size: 24px;
+	line-height: 150%;
+	padding: 0px 0px 0px 33px;
+	background-repeat: no-repeat;
+	background-image: url(./../../images/information/mail.svg);
+	background-size: 18px 14px;
+	background-position: top 12.5px left;
+	transition: color .5s ease-in-out;
+}
+.phone-link:hover, .information__links-email:hover  {
+	color: var(--accent-color);
+}
+.socials {
+	display: flex;
+}
+.information__socials-item:not(:last-child) {
+	margin: 0px 40px 0px 0px;
+}
+.information__socials-link {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	border: 1px solid rgba(255, 255, 255, .4);
+	padding: 10px;
+}
+.social-icon {
+	width: 16px;
+	height: 16px;
+	stroke: var(--default-color);
+	stroke-linecap: round;
+	stroke-linejoin: round;
+	fill: transparent;
+}
+.information__socials-link:hover {
+	border: 1px solid var(--accent-color);
+}
+.information__socials-link:hover .social-icon {
+	stroke: var(--accent-color);
+}
+.social-icon:hover {
+	stroke: var(--accent-color);
+}
+.information-image {
+	position: relative;
+}
+.information-image img {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.information__image {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	z-index: 3;
+	object-fit: cover;
+}
